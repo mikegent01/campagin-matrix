@@ -1,4 +1,4 @@
-# Vigilance Terminal Project
+# Vigilance Terminal Project (This is a A.I Project)
 
 ## Project Philosophy
 
