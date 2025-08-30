@@ -409,37 +409,6 @@ export const WIDESPREAD_FACTIONS = {
             }
         }
     },
-    unaligned: {
-        name: "Unaligned & Independent",
-        description: "Represents various independent settlements, neutral parties, and areas not under the control of a major faction. Their motivations are diverse, ranging from self-preservation to a desire for true neutrality amidst the world's conflicts.",
-        logo: 'icon_focus.png',
-        relations: { 
-            allies: [], 
-            enemies: []
-        },
-        power_level: 1,
-        category: "Underworld & Fringe",
-        region: "Widespread",
-        leader: "None",
-    },
-    tea_leaf_syndicate: {
-        name: "The Tea Leaf Syndicate",
-        description: "A sophisticated criminal organization masquerading as a legitimate tea import company. They control the flow of 'special blend' narcotics and enforce their contracts with quiet, brutal efficiency.",
-        logo: 'icon_focus.png',
-        relations: { 
-            allies: ['freelancer_underworld'], 
-            enemies: ['mushroom_regency', 'diamond_city_investigators', 'peach_loyalists']
-        },
-        power_level: 4,
-        category: "Underworld & Fringe",
-        region: "Widespread (Mushroom Kingdom)",
-        leader: "green_t",
-        notable_people: [
-            { name: "Green T", role: "Leader", description: "The mysterious and well-dressed leader of the Syndicate." },
-            { name: "Earl Grey", role: "Enforcer", description: "A stoic and powerful toad who wields a heavy axe and shield." },
-            { name: "Chai", role: "Diplomat", description: "A smooth-talking toad who handles negotiations." }
-        ]
-    },
     beanbean_kingdom: {
         name: "Beanbean Kingdom",
         description: "The quirky, laughter-loving neighboring kingdom to the Mushroom Kingdom, known for its unique flora and culture.",
